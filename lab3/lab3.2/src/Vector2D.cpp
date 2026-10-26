@@ -25,6 +25,6 @@ double Vector2D::length() const {
 }
 
 void Vector2D::print(std::ostream& os) const {
-    os << "Вектор 2D: Координаты = (" << std::fixed << std::setprecision(2) << x << ", " << y << ")"
-       << " | Длина = " << std::setprecision(4) << length();
+    os << "Vector2D(" << std::fixed << std::setprecision(2) << x << ", " << y << ")"
+       << " len: " << std::setprecision(4) << length();
 }
